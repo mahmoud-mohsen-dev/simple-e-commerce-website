@@ -1,0 +1,19 @@
+.recommended-container {
+    margin-top: 1.5rem;
+    margin-left: 20rem;
+}
+
+.recommended-container h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #323232;
+    border-radius: 5px;
+    border: .6px solid #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+}
