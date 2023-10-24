@@ -2,10 +2,7 @@ import './App.css';
 import data from './db/data';
 import Nav from './navbar/Nav.js'
 import Recommended from './Recommended/Recommended.js'
-// import Category from './sidebar/category/Category.js'
-// import Color from './sidebar/category/Category.js'
-// import Category from './sidebar/category/Category.js'
-
+import Products from './Products/Products';
 
 
 function App() {
@@ -13,6 +10,7 @@ function App() {
     <div className="App">
       <Nav />
       <Recommended />
+      <Products />
     </div>
   );
 }
