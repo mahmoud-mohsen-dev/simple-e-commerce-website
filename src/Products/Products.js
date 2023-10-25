@@ -1,6 +1,5 @@
 import "./Products.css";
 import Product from "../Product/Product";
-import data from "../db/data";
 
 function dataExport(arr) {
   const arrOfProducts = arr.map((ele) => {
@@ -37,10 +36,10 @@ function dataExport(arr) {
 }
 
 
-function Products() {
+function Products({theData}) {
   return (
     <section className="products-container">
-      {dataExport(data)}
+      {dataExport(theData)}
     </section>
   );
 }
