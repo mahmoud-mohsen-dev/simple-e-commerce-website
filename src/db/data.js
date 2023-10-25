@@ -75,7 +75,7 @@ const data = [
     star: <AiFillStar className="rating-star" />,
     reviews: "(123 reviews)",
     prevPrice: "$140,00",
-    newPrice: "50",
+    newPrice: "60",
     company: "Vans",
     color: "white",
     category: "flats",

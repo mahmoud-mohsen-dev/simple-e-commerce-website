@@ -13,8 +13,8 @@ function Sidebar({theFunc, initialData}) {
           <h1 className="logo">🛒</h1>
         </div>
         <Category theFunc={theFunc} initialData={initialData} />
-        <Price />
-        <Color />
+        <Price theFunc={theFunc} initialData={initialData} />
+        <Color theFunc={theFunc} initialData={initialData} />
       </div>
     </>
   );
