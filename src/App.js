@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Nav />
+      <Nav theFunc={setTheData} initialData={data} />
       <Sidebar theFunc={setTheData} initialData={data} />
       {/* you have to call a func and change the state and pass it to the child components*/}
       <Recommended theFunc={setTheData} initialData={data} />
